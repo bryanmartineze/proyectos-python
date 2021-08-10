@@ -1,5 +1,5 @@
 #Este programa imprime en pantalla el nombre del hermano de Alan
-#print("Ivan")
+print("Ivan")
 
 #Este Comentario serà ignorado por Python
 
@@ -21,10 +21,10 @@
 
 #Variables
 #Pequeña historia
-# print("Habia una vez un joven llamado Alan")
-# print("tenia 17 años")
-# print("a Alan le gusta ser llamado por su nombre: Alan")
-# print("pero el ya queria tener 18 años")
+print("Habia una vez un joven llamado Alan")
+print("tenia 17 años")
+print("a Alan le gusta ser llamado por su nombre: Alan")
+print("pero el ya queria tener 18 años")
 
 #Pequeña historia con Variables
 
