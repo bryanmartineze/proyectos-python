@@ -1,5 +1,5 @@
 #\n vuelta de carro o nuevo renglon \ se llama escape
-print("La jirafa es amarilla \ny Manchada")
+print("La jirafa es amarilla \n y Manchada")
 
 print("Este maestro es muy \"manchado\" ")
 
