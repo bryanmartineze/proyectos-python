@@ -3,6 +3,13 @@ print(2)
 print(2.5)
 print(2.45667)
 
+#Puedes convertir valores string a numericos con funcion int
+num1 = "23"
+print(int(num1))
+
+num2 = "23.4"
+print(float(num2))
+
 #suma
 print(2+2)
 
@@ -34,11 +41,11 @@ print(numero_a + numero_b)
 print(str(numero_a))
 
 print("Mi numero favorito es " + str(numero_a + numero_b))
-print("Se cree que el numero")
+
 
 #pow: funcion potencia
 print(pow(3,3))
-print(pow(numero_a, numero_b))
+
 
 #max: devuelve el mayor de la comparacion de dos numeros
 print(max(3 , 6))
