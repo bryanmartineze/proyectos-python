@@ -1,79 +1,85 @@
-#numeros son valores numericos, no se expresan con "" como string
-print(2)
-print(2.5)
-print(2.45667)
+#numeros son valores numericos, no se expresan "" como string
+# print(2)
+# print(2.5)
+# print(2.35667856454665)
 
-#Puedes convertir valores string a numericos con funcion int
-num1 = "23"
-print(int(num1))
+# #Puedes guardar valores numericos en variables
+# num1 = 23
 
-num2 = "23.4"
-print(float(num2))
+# # print(num1)
 
-#suma
-print(2+2)
+# #Puedes convertir valores string en numericos
+# #int atributo de numeros enteros
+num2 = "24"
+print(int(num2))
 
-#resta
-print (3-2)
+# #Puedes convertir strings en decimales
+# #float como atributo de numeros decimales
+# num3 = "56"
 
-#multiplicacion
-print(3*4)
+# print(float(num3))
 
+# num4 = -3
 
-#division
-print(10/2)
+# print(int(num4))
 
-#residuo
+#Operaciones con operadores
 
-print (10 % 3)
+# #suma
+# print(2+2)
 
-#Puedes almacenar numeros en variables
+# #resta
+# print(5-2)
 
-numero_a = 40
-numero_b = 50
-numero_d1 = 3.567
-numero_d2 = 3.3
+# #multiplicacion
+# print(5*5)
 
-print(numero_a)
-print(numero_a + numero_b)
+# #division
+# print(10/2)
 
-#funciòn str = convierte un valor numerico en string
-print(str(numero_a))
+# #residuo
+# print(10 % 3)
 
-print("Mi numero favorito es " + str(numero_a + numero_b))
+#Operaciones con variables
 
+num_a = 40
+num_b = 50
+num_c = 3.567
+num_d = 3.2
 
-#pow: funcion potencia
-print(pow(3,3))
+# # print(num_a * num_b)
 
+# # print(num_c-num_d)
 
-#max: devuelve el mayor de la comparacion de dos numeros
-print(max(3 , 6))
-print(max(numero_a,numero_b))
+# #Podemos convertir numero a strings
 
-#min: devuelve el menor de la comparaciòn de dos numeros
-print(min(5,1))
+# # print(str(num_a))
 
-#round: redondea a enteros el numero indicad
-print(round(5.32))
-print(round(numero_d1))
-print(round(numero_d2))
+# print("Mi numero favorito es: " + str(num_a + num_b))
 
-#from math import * : esta libreria importara otras funciones matematicas que necesitaremos algpun dìa
+# #operador pow = potencia
+# print(pow(3,3))
+
+# #operador max = devuelve el mayor de la comparacion de 2 numeros
+# print(max(num_a, num_b))
+
+# #min = devuelve el menor de la comparacion de 2 numeros
+# print(min(num_c,num_d))
+
+#operador round: redondea a entero el numero indicado
+# print(round(num_d))
+# print(round(num_c))
+
+#from math import * : esta libreria importarà otras funciones matematicas que necesitaremos algun dia
 from math import *
 
-#floor: redondea un numero hacia abajo
+#floor: redondea numero hacia abajo
 print(floor(3.9))
-print(floor(numero_d1))
 
-#ceil: redondea un numero hacia arriba
-print(floor(3.1))
-print(ceil(numero_d2))
+#ceil: redondea numero hacia arriba
+print(ceil(num_c))
 
-#srt: raiz cuadrada, ejercicio raiz cuadrada de 30 y redondea el resultado a entero
+#sqrt: raiz cuadrada
 print(sqrt(144))
-print(round(sqrt(30)))
 
 
-#Programa arroje la raiz cuadrada de 30 en un print, despues otro print donde redondee hacia arriba el resultado y lo multiplique 
-# por variable numero_2
