@@ -75,13 +75,33 @@ nuevos_amigos = ["Gustavo", "Gaspar", "Juan"]
 
 # print(numeros_aleatorios)
 
-#lista.copy() copiar los valores de una lista a otra lista
+# #lista.copy() copiar los valores de una lista a otra lista
 
-numeros_aleatorios = [30, 21, -1, 0, 99, 99.4]
+# numeros_aleatorios = [30, 21, -1, 0, 99, 99.4]
 
-numeros_aleatoriosV2 = numeros_aleatorios.copy()
+# numeros_aleatoriosV2 = numeros_aleatorios.copy()
 
-print(numeros_aleatoriosV2)
+# print(numeros_aleatoriosV2)
+
+
+
+print("Este program recibe 3 numeros en una lista, los ordena de mayor a menor \ny los suma")
+
+num1 = input("Teclee su primer numero: ")
+num2 = input("Teclee su segundo numero: ")
+num3 = input("Teclee su tercer numero: ")
+
+lista_numeros = [float(num1), float(num2), float(num3)]
+
+
+print("Su lista de numeros es: ")
+
+lista_numeros.sort()
+
+print(lista_numeros)
+
+print("La suma de su lista es: ", sum(lista_numeros))
+
 
 
 
