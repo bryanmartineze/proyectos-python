@@ -23,5 +23,9 @@ parejas[0] = ("Ivan", "Tamara")
 
 print(parejas)
 
+#Ejercicio: crear 2 tuplas de 3 datos acerca de heroes de la independencia e imprime una concatenacion
+#Ejercicio: crea un programa que reciba 2 nombres y cree una tupla con ellos, y que solo muestre el primer nombre
+
+
 
 
