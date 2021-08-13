@@ -1,51 +1,64 @@
 #Las funciones personalizadas son funciones que han sido creadas por el programador para especificar una tarea
-#Identacion
+#Identacion es una sangria que se forma en automatico al construir una funcion
 # def di_hola():
 #     print("Hola Usuario")
-# #mandamos a llamar la funcion
-# di_hola()
 
-# #Las funciones no tienen orden jerarquico
-# print("Arriba")
-# di_hola()
-# print("Abajo")
+# #Mandamos a llamar la funcion
 
-#Podemos darle informacion a las funciones, despues que una funcion recibe informacion se llamaran Parametros
+# # di_hola()
+
+# #Las funciones no tiene prioridad jerarquica
+# print("arriba")
+# di_hola()
+# print("abajo")
+
+#Podemos parametrizar las funciones
 # def saluda(nombre):
 #     print("Hola " + nombre)
 
 # saluda("Alan")
 
-# Podemos definir varios parametros para una funcion
-
+# #Podemos definir varios parametro en una funcion
 # def saluda(nombre, genero, edad):
-#     print("Hola " + nombre + " eres " + genero + " y tienes " + edad + " años")
+#     print("Hola mi nombre es " + nombre + " soy " + genero + " y tengo " + edad + " años")
 
 # saluda("Alan", "hombre", "17")
 
-# Crea un programa que invoque una funcion donde los parametros debe ser introducidos por el usuario
+# print("Bienvenido al generador de saludos con función")
+def saludo(nombre1,apellido1,delegacion1):
+    print("Hola soy " + nombre1 + " " + apellido1 + " de " + delegacion1  + " y mando un saludo a ")
 
-print("Bievenido al generador de saludos con funcion")
-def saludo():
-    nombre = input("Por favor indique el nombre del primer participante:")
-    apellido = input("Por favor indique el apellido del primer participante: ")
-    delegacion = input("Por favor indique la delegacion donde vive el primer participante: ")
-    print("Hola soy " + nombre + " " + apellido + " de " + delegacion)
-
-def dedicado():
-    nombre =  input("Por favor indique el nombre del segundo participante:")
-    apellido = input("Por favor indique el apellido del segundo participante: ")
-    delegacion = input("Por favor indique la delegacion donde vive el segundo participante: ")
-    print("Hola soy " + nombre + " " + apellido + " de " + delegacion)
+nombre1 = input("Escribe el nombre del primer participante ")
+apellido1 = input("Escribe el nombre del primer participante: ")
+delegacion1 = input("Escribe la delegacion del segundo participante: ")
 
 
-saludo()
+def saludo2(nombre2,apellido2,delegacion2):
+    print(" mi amigo " + nombre2 + " " + apellido2 + " de " + delegacion2)
+    nombre2=input("Escribe el nombre del segundo participante ")
+    apellido2=input("Escribe el nombre del segundo participante: ")
+    delegacion2=input("Escribe la delegacion del segundo participante: ")
 
-# Bienvenido al generador de saludos con funcion
-# Por favor indique el nombre del primer participante: Alan
-# Por favor indique el apellido del primer participante: Elizalde
-# Por favor indique la delegacion donde vive el primer participante: Azcapotzalco
-# Hola soy Alan Elizalde de Acapotzalco
+# saludo(nombre1,apellido1,delegacion1)
+# saludo2(nombre2,apellido2,delegacion2)
+
+
+
+
+def hola_mundo():
+    print("Hola Mundo")
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

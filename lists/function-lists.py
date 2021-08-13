@@ -93,12 +93,9 @@ nuevos_amigos = ["Gustavo", "Gaspar", "Juan"]
 
 # lista_numeros = [float(num1), float(num2), float(num3)]
 
-
-# print("Su lista de numeros es: ")
-
 # lista_numeros.sort()
 
-# print(lista_numeros)
+# print("Su lista de numeros es: ", lista_numeros)
 
 # #Podemos usar la funcion sum(lista) para sumar los valores numericos de una lista
 
@@ -106,13 +103,17 @@ nuevos_amigos = ["Gustavo", "Gaspar", "Juan"]
 
 #Podemos reemplazar valores de una lista
 
-coordenadas = [2 , 3]
+# coordenadas = [2 , 3]
 
-coordenadas[0] = 5
+# print(coordenadas)
 
-print(coordenadas)
+# coordenadas[0] = 5
+
+# print(coordenadas)
 
 amigos = ["bryan", "alan"]
+
+print(amigos)
 
 amigos[0] = "ivan"
 
