@@ -85,25 +85,38 @@ nuevos_amigos = ["Gustavo", "Gaspar", "Juan"]
 
 
 
-print("Este program recibe 3 numeros en una lista, los ordena de mayor a menor \ny los suma")
+# print("Este program recibe 3 numeros en una lista, los ordena de mayor a menor \ny los suma")
 
-num1 = input("Teclee su primer numero: ")
-num2 = input("Teclee su segundo numero: ")
-num3 = input("Teclee su tercer numero: ")
+# num1 = input("Teclee su primer numero: ")
+# num2 = input("Teclee su segundo numero: ")
+# num3 = input("Teclee su tercer numero: ")
 
-lista_numeros = [float(num1), float(num2), float(num3)]
-
-
-print("Su lista de numeros es: ")
-
-lista_numeros.sort()
-
-print(lista_numeros)
-
-print("La suma de su lista es: ", sum(lista_numeros))
+# lista_numeros = [float(num1), float(num2), float(num3)]
 
 
+# print("Su lista de numeros es: ")
 
+# lista_numeros.sort()
+
+# print(lista_numeros)
+
+# #Podemos usar la funcion sum(lista) para sumar los valores numericos de una lista
+
+# print("La suma de su lista es: ", sum(lista_numeros))
+
+#Podemos reemplazar valores de una lista
+
+coordenadas = [2 , 3]
+
+coordenadas[0] = 5
+
+print(coordenadas)
+
+amigos = ["bryan", "alan"]
+
+amigos[0] = "ivan"
+
+print(amigos)
 
 
 
