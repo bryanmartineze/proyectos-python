@@ -25,30 +25,19 @@
 # saluda("Alan", "hombre", "17")
 
 # print("Bienvenido al generador de saludos con función")
-def saludo(nombre1,apellido1,delegacion1):
-    print("Hola soy " + nombre1 + " " + apellido1 + " de " + delegacion1  + " y mando un saludo a ")
-
-nombre1 = input("Escribe el nombre del primer participante ")
-apellido1 = input("Escribe el nombre del primer participante: ")
-delegacion1 = input("Escribe la delegacion del segundo participante: ")
-
-
-def saludo2(nombre2,apellido2,delegacion2):
-    print(" mi amigo " + nombre2 + " " + apellido2 + " de " + delegacion2)
-    nombre2=input("Escribe el nombre del segundo participante ")
-    apellido2=input("Escribe el nombre del segundo participante: ")
-    delegacion2=input("Escribe la delegacion del segundo participante: ")
+# def saludo(nombre1,apellido1,delegacion1):
+#     print("Hola soy " + nombre1 + " " + apellido1 + " de " + delegacion1  + " y mando un saludo a ")
+# nombre1 = input("Escribe el nombre del primer participante ")
+# apellido1 = input("Escribe el nombre del primer participante: ")
+# delegacion1 = input("Escribe la delegacion del segundo participante: ")
 
 # saludo(nombre1,apellido1,delegacion1)
 # saludo2(nombre2,apellido2,delegacion2)
 
+#Puedes importar funciones
+from function_holamundo import hola_mundo
 
-
-
-def hola_mundo():
-    print("Hola Mundo")
-
-
+hola_mundo()
 
 
 
