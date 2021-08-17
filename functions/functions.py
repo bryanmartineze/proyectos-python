@@ -34,12 +34,10 @@
 # saludo(nombre1,apellido1,delegacion1)
 # saludo2(nombre2,apellido2,delegacion2)
 
-#Puedes importar funciones, creamos la funcion hola en function_holamundo, y la mandamos a llamar en este mismo archivo
-from function_holamundo import hola_mundo
-
-hola_mundo()
-
-
+#Las funciones pueden ser importadas entre archivos y pueden ser renombradas
+from function_holamundo import hola_mundo as hello
+hello()
+ 
 
 
 

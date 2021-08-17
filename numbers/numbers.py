@@ -10,8 +10,8 @@
 
 # #Puedes convertir valores string en numericos
 # #int atributo de numeros enteros
-num2 = "24"
-print(int(num2))
+# num2 = "24"
+# print(int(num2))
 
 # #Puedes convertir strings en decimales
 # #float como atributo de numeros decimales
@@ -70,16 +70,21 @@ num_d = 3.2
 # print(round(num_d))
 # print(round(num_c))
 
-#from math import * : esta libreria importarà otras funciones matematicas que necesitaremos algun dia
-from math import *
+# #from math import * : esta libreria importarà otras funciones matematicas que necesitaremos algun dia
+# from math import *
 
-#floor: redondea numero hacia abajo
-print(floor(3.9))
+# #floor: redondea numero hacia abajo
+# print(floor(3.9))
 
-#ceil: redondea numero hacia arriba
-print(ceil(num_c))
+# #ceil: redondea numero hacia arriba
+# print(ceil(num_c))
 
-#sqrt: raiz cuadrada
-print(sqrt(144))
+# #sqrt: raiz cuadrada
+# print(sqrt(144))
+
+#puedes importar funciones a variables
+potencia = pow
+
+print(potencia(6,3))
 
 
