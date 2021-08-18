@@ -1,0 +1,34 @@
+El pseudocodigo es la forma en que los programadores pueden crear algoritmos utilizando lenguaje de alto nivel
+
+Por ejemplo
+
+define la funcion cubo donde cubo recibe como parametro un numero
+    devuelve numero*numero*numero
+
+imprime el resultado de la funcion
+
+La declaracion if significa "si" en el contexto de condicion en lenguaje español
+
+Por ejemplo:
+
+Pseudocodigo de rutina
+
+Despierto y me levanto de la cama
+SI estoy hambriento
+    Como desayuno
+DE LO CONTRARIO
+    Me salgo sin desayunar
+
+Salgo de mi casa
+SI esta lloviendo
+    llevo paraguas
+DE LO CONTRARIO
+    llevo gorra
+
+Llego a un restaurante  a mi hora de comida
+SI yo quiero carne y verdura
+    ordeno un bistec y ensalada
+DE LO CONTRARIO
+    ordeno Spaguetti y albondigas
+DE LO CONTRARIO
+    ordeno ensalada
