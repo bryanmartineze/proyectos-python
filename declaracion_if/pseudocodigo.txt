@@ -1,34 +1,48 @@
-El pseudocodigo es la forma en que los programadores pueden crear algoritmos utilizando lenguaje de alto nivel
+from typing import ChainMap
+
+
+El pseudocodigo la forma en que los programadores pueden crear algortimos utilizando lenguaje de alto nivel
 
 Por ejemplo
 
-define la funcion cubo donde cubo recibe como parametro un numero
+define la funcion de cubo(donde cubo recibe como parametro un numero)
     devuelve numero*numero*numero
 
 imprime el resultado de la funcion
 
-La declaracion if significa "si" en el contexto de condicion en lenguaje español
+La declaracion if significa "si" en el contexto de condicion en lenguaje humano
 
-Por ejemplo:
-
-Pseudocodigo de rutina
+Pseudocodigo de mi rutina
 
 Despierto y me levanto de la cama
 SI estoy hambriento
-    Como desayuno
+    Desayuno
 DE LO CONTRARIO
-    Me salgo sin desayunar
+    No desayuno
 
-Salgo de mi casa
+Subo a barrer
 SI esta lloviendo
-    llevo paraguas
+    no salgo
 DE LO CONTRARIO
-    llevo gorra
+    llevo gorra barro
 
-Llego a un restaurante  a mi hora de comida
-SI yo quiero carne y verdura
-    ordeno un bistec y ensalada
+Habra clase?
+SI bryan me mando mensaje
+    Preparo mis cosas para tomar la clase
+DE LO CONTRARIO 
+    No preparo porque bryan no me mando mensaje
+
+Llego a un restaurante porque me invitaron
+Se me antoja la carne y verdura? 
+se me antoja la carne pero no la verdura? 
+Se me antoja la verdura pero no la carne? 
+ 
+
+
+SI yo quiero carne y verdura    
+    orden bistec y una ensalada
 DE LO CONTRARIO
-    ordeno Spaguetti y albondigas
+    ordeno spaghetti y albondigas
 DE LO CONTRARIO
     ordeno ensalada
+
