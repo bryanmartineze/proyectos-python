@@ -37,8 +37,8 @@
 # #division
 # print(10/2)
 
-# #residuo
-# print(10 % 3)
+#residuo
+print(10 % 3)
 
 #Operaciones con variables
 
